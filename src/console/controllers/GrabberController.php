@@ -3,7 +3,7 @@
 namespace yii2module\tool\console\controllers;
 
 use Yii;
-use yii2lab\extension\console\base\Controller;
+use yii2rails\extension\console\base\Controller;
 
 /**
  * Grabber tools

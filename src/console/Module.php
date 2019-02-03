@@ -2,7 +2,7 @@
 
 namespace yii2module\tool\console;
 
-use yii2lab\domain\helpers\DomainHelper;
+use yii2rails\domain\helpers\DomainHelper;
 
 /**
  * Class Module

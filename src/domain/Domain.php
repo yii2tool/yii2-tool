@@ -2,7 +2,7 @@
 
 namespace yii2module\tool\domain;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 use yii2module\tool\domain\enums\CharsetEnum;
 
 /**
@@ -14,7 +14,7 @@ use yii2module\tool\domain\enums\CharsetEnum;
  * @property \yii2module\tool\domain\services\PasswordService $password
  * @property \yii2module\tool\domain\services\OpenServerService $openServer
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	/**
 	 * @return array

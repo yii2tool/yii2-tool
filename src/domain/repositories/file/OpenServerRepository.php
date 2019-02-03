@@ -2,8 +2,8 @@
 
 namespace yii2module\tool\domain\repositories\file;
 
-use yii2lab\domain\repositories\BaseRepository;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2module\tool\domain\helpers\OpenServerHelper;
 
 class OpenServerRepository extends BaseRepository {

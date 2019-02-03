@@ -3,11 +3,11 @@
 namespace yii2module\tool\domain\services;
 
 use yii\httpclient\Client;
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\domain\services\base\BaseService;
-use yii2lab\extension\yii\helpers\FileHelper;
-use yii2lab\extension\web\enums\HttpMethodEnum;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\domain\services\base\BaseService;
+use yii2rails\extension\yii\helpers\FileHelper;
+use yii2rails\extension\web\enums\HttpMethodEnum;
 
 class GrabberService extends BaseService {
 	

@@ -4,8 +4,8 @@ namespace yii2module\tool\console\controllers;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\console\base\Controller;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\console\base\Controller;
 
 /**
  * Open server tools
