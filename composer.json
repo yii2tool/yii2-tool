@@ -16,7 +16,9 @@
 	"autoload": {
 		"psr-4": {
 			"yii2module\\tool\\": "src",
-			"yii2module\\tool\\tests\\": "tests"
+			"yii2module\\tool\\tests\\": "tests",
+			"yii2tool\\tool\\": "src",
+			"yii2tool\\tool\\tests\\": "tests"
 		}
 	},
 	"require": {
