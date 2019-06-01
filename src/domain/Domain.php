@@ -13,6 +13,8 @@ use yii2module\tool\domain\enums\CharsetEnum;
  * @property \yii2module\tool\domain\services\GrabberService $grabber
  * @property \yii2module\tool\domain\services\PasswordService $password
  * @property \yii2module\tool\domain\services\OpenServerService $openServer
+ * @property-read \yii2module\tool\domain\interfaces\services\RuntimeIncludeInterface $runtimeInclude
+ * @property-read \yii2module\tool\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	
@@ -24,6 +26,7 @@ class Domain extends \yii2rails\domain\Domain {
 			'repositories' => [
 				'password',
 				'grabber',
+				'runtimeInclude' => Driver::ACTIVE_RECORD,
 				'openServer' => [
 					'driver' => Driver::FILE,
 					'domainDir' => 'C:\OpenServer\domains',
@@ -47,6 +50,7 @@ class Domain extends \yii2rails\domain\Domain {
 				],
 				'grabber',
 				'openServer',
+                'runtimeInclude',
 			],
 		];
 	}
