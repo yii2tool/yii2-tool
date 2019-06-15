@@ -17,8 +17,8 @@ class m190531_173927_create_runtime_include_table extends Migration {
 	public function getColumns()
 	{
 		return [
-			'id' => $this->integer()->notNull(),
-			'request_data' => $this->array()->notNull(),
+			'id' => $this->primaryKey()->notNull(),
+			'request_data' => $this->json()->notNull(),
 			'class' => $this->string()->notNull(),
 			'timestamp' => $this->integer()->notNull(),
 		];
