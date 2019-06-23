@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\tool\domain\repositories\file;
+namespace yii2tool\tool\domain\repositories\file;
 
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\tool\domain\helpers\OpenServerHelper;
+use yii2tool\tool\domain\helpers\OpenServerHelper;
 
 class OpenServerRepository extends BaseRepository {
 	

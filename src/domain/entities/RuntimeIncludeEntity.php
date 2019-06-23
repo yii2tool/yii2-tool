@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\tool\domain\entities;
+namespace yii2tool\tool\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
 /**
  * Class RuntimeIncludeEntity
  * 
- * @package yii2module\tool\domain\entities
+ * @package yii2tool\tool\domain\entities
  * 
  * @property $id
  * @property $request_data

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\tool\domain\services;
+namespace yii2tool\tool\domain\services;
 
 use yii\httpclient\Client;
 use yii2rails\app\domain\helpers\EnvService;

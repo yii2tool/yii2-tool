@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\tool\web;
+namespace yii2tool\tool\web;
 
 use yii2rails\domain\helpers\DomainHelper;
 
 /**
  * Class Module
  * 
- * @package yii2module\tool\console
+ * @package yii2tool\tool\console
  */
 class Module extends \yii\base\Module {
 
@@ -15,7 +15,7 @@ class Module extends \yii\base\Module {
 	
 	public function init() {
 		DomainHelper::forgeDomains([
-			'tool' => 'yii2module\tool\domain\Domain',
+			'tool' => 'yii2tool\tool\domain\Domain',
 		]);
 		parent::init();
 	}

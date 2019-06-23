@@ -9,7 +9,7 @@ use yii2rails\domain\helpers\DomainHelper;
 use yii2rails\extension\console\helpers\BinConsoleHelper;
 
 DomainHelper::defineDomains([
-    'tool' => 'yii2module\tool\domain\Domain',
+    'tool' => 'yii2tool\tool\domain\Domain',
 ]);
 
 $controllerNamespace = 'yii2module\\tool\\console\\bin';

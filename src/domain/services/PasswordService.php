@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\tool\domain\services;
+namespace yii2tool\tool\domain\services;
 
 use yii2rails\domain\services\base\BaseService;
 use yii2rails\extension\common\helpers\StringHelper;
-use yii2module\tool\domain\enums\CharsetEnum;
+use yii2tool\tool\domain\enums\CharsetEnum;
 
 class PasswordService extends BaseService {
 	

@@ -1,15 +1,15 @@
 <?php
 
-namespace yii2module\tool\domain\services;
+namespace yii2tool\tool\domain\services;
 
 use yii2rails\domain\services\base\BaseService;
 
 /**
  * Class OpenServerService
  *
- * @package yii2module\tool\domain\services
+ * @package yii2tool\tool\domain\services
  *
- * @property \yii2module\tool\domain\repositories\file\OpenServerRepository $repository
+ * @property \yii2tool\tool\domain\repositories\file\OpenServerRepository $repository
  */
 class OpenServerService extends BaseService {
 	

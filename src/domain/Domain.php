@@ -1,20 +1,20 @@
 <?php
 
-namespace yii2module\tool\domain;
+namespace yii2tool\tool\domain;
 
 use yii2rails\domain\enums\Driver;
-use yii2module\tool\domain\enums\CharsetEnum;
+use yii2tool\tool\domain\enums\CharsetEnum;
 
 /**
  * Class Domain
  * 
- * @package yii2module\tool\domain
+ * @package yii2tool\tool\domain
  *
- * @property \yii2module\tool\domain\services\GrabberService $grabber
- * @property \yii2module\tool\domain\services\PasswordService $password
- * @property \yii2module\tool\domain\services\OpenServerService $openServer
- * @property-read \yii2module\tool\domain\interfaces\services\RuntimeIncludeInterface $runtimeInclude
- * @property-read \yii2module\tool\domain\interfaces\repositories\RepositoriesInterface $repositories
+ * @property \yii2tool\tool\domain\services\GrabberService $grabber
+ * @property \yii2tool\tool\domain\services\PasswordService $password
+ * @property \yii2tool\tool\domain\services\OpenServerService $openServer
+ * @property-read \yii2tool\tool\domain\interfaces\services\RuntimeIncludeInterface $runtimeInclude
+ * @property-read \yii2tool\tool\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	

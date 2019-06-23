@@ -13,7 +13,7 @@ composer require yii2module/yii2-tool
 return [
 	'modules' => [
 		// ...
-		'tool' => 'yii2module\tool\console\Module',
+		'tool' => 'yii2tool\tool\console\Module',
 		// ...
 	],
 ];
@@ -27,7 +27,7 @@ return [
 		// ...
 		'tool' => [
             'class' => Domain::class,
-            'path' => 'yii2module\tool\domain',
+            'path' => 'yii2tool\tool\domain',
             'repositories' => [
                 'password',
             ],

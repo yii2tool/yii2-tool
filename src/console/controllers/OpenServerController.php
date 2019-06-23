@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\tool\console\controllers;
+namespace yii2tool\tool\console\controllers;
 
 use Yii;
 use yii\helpers\ArrayHelper;

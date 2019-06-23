@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\tool\domain\entities;
+namespace yii2tool\tool\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
 /**
  * Class OpenServerEntity
  *
- * @package yii2module\tool\domain\entities
+ * @package yii2tool\tool\domain\entities
  *
  * @property string $dir
  * @property string $host

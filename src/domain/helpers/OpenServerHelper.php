@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\tool\domain\helpers;
+namespace yii2tool\tool\domain\helpers;
 
 use yii\helpers\ArrayHelper;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\tool\domain\entities\OpenServerEntity;
+use yii2tool\tool\domain\entities\OpenServerEntity;
 
 class OpenServerHelper {
 	

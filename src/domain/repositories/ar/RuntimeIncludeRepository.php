@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\tool\domain\repositories\ar;
+namespace yii2tool\tool\domain\repositories\ar;
 
 use yii\helpers\ArrayHelper;
 use yii2lab\db\domain\helpers\TableHelper;
-use yii2module\tool\domain\interfaces\repositories\RuntimeIncludeInterface;
+use yii2tool\tool\domain\interfaces\repositories\RuntimeIncludeInterface;
 use yii2rails\domain\data\Query;
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
@@ -12,9 +12,9 @@ use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 /**
  * Class RuntimeIncludeRepository
  * 
- * @package yii2module\tool\domain\repositories\ar
+ * @package yii2tool\tool\domain\repositories\ar
  * 
- * @property-read \yii2module\tool\domain\Domain $domain
+ * @property-read \yii2tool\tool\domain\Domain $domain
  */
 class RuntimeIncludeRepository extends BaseActiveArRepository implements RuntimeIncludeInterface {
 
